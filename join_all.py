@@ -3,8 +3,8 @@ import pandas as pd
 import os
 
 data = str(datetime.now().date())
-path = '//RETRU643-NT0001/Common_A/All Rostokino/GADD'
-al010 = '//RETRU643-NT0001/Common_A/All Rostokino/GADD/AL010.xlsm'
+path = ''
+al010 = ''
 a = pd.read_excel(al010, sheet_name='Data')
 q = []
 for i in os.listdir(path):
